@@ -8,7 +8,7 @@ public class HomeController {
 	
 	@GetMapping("/")
 	public String hello() {
-		return "Welcome to Spring Boot App running on AWS EC2 instance";
+		return "Welcome to Spring Boot App running on AWS EC2 instance, see its magic on Jenkins!!!";
 	}
 
 }
