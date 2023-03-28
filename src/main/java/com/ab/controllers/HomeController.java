@@ -9,7 +9,7 @@ public class HomeController {
 	@GetMapping("/")
 	public String hello() {
 
-		return "Welcome to Spring Boot App running on AWS EC2 instance!!! Another test!!! Good to go!!";
+		return "Welcome to Spring Boot App running on AWS EC2 instance!!!";
 
 	}
 
