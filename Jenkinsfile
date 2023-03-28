@@ -62,7 +62,7 @@ pipeline {
         stage ('Deploy') {
 	      steps {
 	        script {
-	          deploy adapters: [tomcat9(credentialsId: 'mysecret-id', path: '', url: 'http://54.165.169.16:8085')], contextPath: '/webapptest2', onFailure: false, war: 'target/*.war' 
+	          deploy adapters: [tomcat9(credentialsId: 'mysecret-id', path: '', url: 'http://184.73.59.148:8085')], contextPath: '/webapptest2', onFailure: false, war: 'target/*.war' 
 	        }
 	      }
     }
